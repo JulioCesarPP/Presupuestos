@@ -1,0 +1,21 @@
+﻿@model Presupuestos.Models.TipoCuenta
+
+<link rel="stylesheet" href="~/css/aSing.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/Index.css" asp-append-version="true" />
+
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br/>
+<div class="edit-container">
+    <h1>Editar</h1>
+    @using (Html.BeginForm("Editar", "TiposCuentas", FormMethod.Post))
+    {
+        <div class="form-group">
+            @Html.LabelFor(model => model.Nombre, htmlAttributes: new { @class = "control-label custom-label" })
+            @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+        <button data-id="@Model.Id" type="submit" class="btn btn-primary">Guardar Cambios</button>
+    }
+</div>

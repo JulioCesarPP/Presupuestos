@@ -1,0 +1,156 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Protest+Riot&family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Madimi+One&family=Protest+Riot&family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Coiny&family=Madimi+One&family=Protest+Riot&family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Carter+One&family=Coiny&family=Madimi+One&family=Protest+Riot&family=Stint+Ultra+Condensed&display=swap');
+
+.Titulo {
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#txtNombre {
+    width: 300px;
+}
+
+.descrip {
+    font-family: "Boogaloo", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+}
+
+
+.Centrar {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 78, 128, 0.34);
+}
+
+.form-input {
+    font-family: "Boogaloo", sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.form-button {
+    font-family: "Carter One", system-ui;
+    font-style: normal;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: #49A888;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .form-button:hover {
+        background-color: #397583;
+    }
+
+
+.edit-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgb(0, 78, 128, 0.34);
+}
+
+    .edit-container h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: "Madimi One", sans-serif;
+        font-style: normal;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.custom-label {
+    font-family: "Boogaloo", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.form-control {
+    font-family: "Boogaloo", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    font-family: "Carter One", system-ui;
+    font-style: normal;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: #49A888;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto; 
+    display: block;
+}
+
+    .btn:hover {
+        background-color: #397583;
+    }
+
+
+
+
+.containerTable {
+    width: 600px;
+}
+
+.btnEditar {
+    width: 100px;
+    height: 40px;
+    background-color: #4DCBC9;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid #77B0AF;
+}
+
+.btnEliminar {
+    width: 100px;
+    height: 40px;
+    background-color: #BB1010;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid #9A0C0C;
+}
